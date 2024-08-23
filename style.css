@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(66, 116, 253);
+}
+
+header {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* =====================NAVBAR======================= */
+.logo {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(216, 120, 216, 0.933);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+header ul li a {
+  color: rgba(216, 120, 216, 0.933);
+  font-size: 20px;
+}
+
+header ul li a:hover {
+  color: aliceblue;
+}
+
+/* navigasi */
+nav {
+  background-color: rgb(10, 236, 150);
+  width: 100%;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  width: 100px;
+  height: 100;
+  margin-bottom: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  color: black;
+}
+
+/* =====================AKHIR NAVBAR======================= */
+
+/* =====================HOME======================= */
+
+/* content-1 */
+.container-1 {
+  display: flex;
+}
+
+.main-content-1 {
+  height: 500px;
+  width: 60%;
+  background-color: rgb(66, 116, 253);
+  align-items: center;
+  justify-content: center;
+}
+
+.nama {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: floralwhite;
+  margin: 150px;
+}
+
+.sidebar-1 {
+  display: flex;
+  width: 40%;
+  height: 500px;
+  background-color: rgb(75, 106, 247);
+  flex-direction: column;
+}
+
+.poto {
+  width: 250px;
+  height: 250px;
+  margin-top: 70px;
+  margin-left: 150px;
+  border-radius: 50%;
+}
+.paragraf-sidebar {
+  background-color: rgb(70, 93, 192);
+  color: floralwhite;
+  padding: 12px;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* content-2 */
+.container-2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+  background-image: url("../latihan/bg.jpg");
+}
+
+.biodata {
+  border: 3px rgb(105, 228, 228) solid;
+
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.biodata h4 a {
+  padding: 10px;
+  margin: 5px;
+  color: floralwhite;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: rgb(37, 83, 209);
+}
+
+.text-footer {
+  color: floralwhite;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+/* =====================AKHIR HOME======================= */
+
+/* =====================BIODATA======================= */
+/* sidebar */
+
+.container-1-biodata {
+  display: flex;
+}
+
+.sidebar-biodata {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  background-color: aquamarine;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poto-biodata {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+.data-pribadi {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.data-pribadi span {
+  display: block;
+  width: 350px;
+  height: 3px;
+  margin: 2px;
+  background-color: rgb(18, 46, 228);
+  border-radius: 3px;
+}
+
+.tabel-biodata {
+  display: flex;
+  border: 2px blue solid;
+}
+
+.tabel-biodata tr td {
+  border-style: dashed;
+  padding: 10px;
+}
+
+.tabel-biodata tr:nth-child(odd) {
+  font-weight: 700;
+  font-size: 18px;
+}
+.tabel-biodata tr:nth-child(even) {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hobi {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.hobi span {
+  display: block;
+  width: 350px;
+  height: 3px;
+  margin: 2px;
+  background-color: rgb(18, 46, 228);
+  border-radius: 3px;
+}
+
+.tabel-hobi {
+  display: flex;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.tabel-hobi tr:nth-child(n) {
+  display: flex;
+  margin: 20px;
+
+  font-weight: 700;
+  font-size: 18px;
+}
+/* akhir sidebar */
+
+/* main content */
+
+.main-content-biodata {
+  display: flex;
+  width: 60%;
+
+  flex-direction: column;
+  background-color: rgb(22, 173, 255);
+}
+
+.judul-main-content {
+  margin-left: 190px;
+  padding: 20px;
+  height: 200px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.judul-main-content span {
+  display: block;
+  width: 500px;
+  height: 5px;
+  position: relative;
+  top: 30px;
+  right: 55px;
+  background-color: rgb(18, 46, 228);
+  border-radius: 3px;
+}
+.riwayat-pendidikan {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.fa-solid {
+  color: rgb(0, 51, 255);
+}
+
+.span-pendidikan {
+  display: block;
+  width: 700px;
+  height: 5px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  background-color: rgb(18, 46, 228);
+  border-radius: 3px;
+}
+.sekolah {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.keahlian {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: space-around;
+  width: 65%;
+  margin-top: 100px;
+}
+
+.span-keahlian {
+  display: block;
+  width: 700px;
+  height: 5px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  background-color: rgb(18, 46, 228);
+  border-radius: 3px;
+}
+
+.bisa {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.bisa ul li {
+  margin: 10px;
+}
+
+.persen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 130px;
+}
+.persen-1 {
+  position: relative;
+  height: 10px;
+  width: 200px;
+  background-color: rgb(5, 5, 161);
+  left: 20px;
+  top: 8px;
+}
+
+.persen-2 {
+  position: relative;
+  height: 10px;
+  width: 120px;
+  background-color: rgb(5, 5, 161);
+  left: 20px;
+  top: 8px;
+}
+.persen-3 {
+  position: relative;
+  height: 10px;
+  width: 100px;
+  background-color: rgb(5, 5, 161);
+  left: 20px;
+  top: 8px;
+}
+.persen-4 {
+  position: relative;
+  height: 10px;
+  width: 80px;
+  background-color: rgb(5, 5, 161);
+  left: 20px;
+  top: 8px;
+}
+
+/* =====================AKHIR BIODATA======================= */
+
+/* =====================CONTACT ME======================= */
+.contact {
+  width: 350px;
+  height: 400px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 100px auto;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border: 1px solid rgb(105, 228, 228);
+}
+
+form {
+  width: 260px;
+  margin: 20px 37px;
+  text-align: center;
+}
+
+h1.contact {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  outline: none;
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid rgb(66, 116, 253);
+}
+
+#btn{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color:rgb(66, 116, 253) ;
+}
+
+#btn:hover {
+  background: rgb(38, 85, 215, 0.9) ;
+}
+
+/* ===================== AKHIR CONTACT ME======================= */
